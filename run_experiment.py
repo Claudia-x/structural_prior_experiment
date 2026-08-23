@@ -21,6 +21,8 @@ class Sample:
     state: np.ndarray
     action: np.ndarray
     next_state: np.ndarray
+    mass: float
+    friction: float
 
 
 @dataclass
@@ -32,6 +34,7 @@ class Result:
     prior_weight: float
     prediction_error: float
     structural_violation: float
+    planning_success: float
 
 
 def parse_args() -> argparse.Namespace:
@@ -52,6 +55,11 @@ def parse_args() -> argparse.Namespace:
         help="Weights scanned for global and part priors; none always uses weight 0.",
     )
     parser.add_argument("--hidden_dim", type=int, default=128)
+    parser.add_argument("--action_noise", type=float, default=0.08)
+    parser.add_argument("--observation_noise", type=float, default=0.01)
+    parser.add_argument("--planning_episodes", type=int, default=100)
+    parser.add_argument("--planning_horizon", type=int, default=3)
+    parser.add_argument("--planning_candidates", type=int, default=27)
     return parser.parse_args()
 
 
@@ -66,51 +74,91 @@ def rotation(angle: float) -> np.ndarray:
     return np.array([[cosine, -sine], [sine, cosine]], dtype=np.float32)
 
 
-def make_transition(object_type: str, rng: np.random.Generator) -> Sample:
-    action = rng.uniform(-1.0, 1.0, size=3).astype(np.float32)
-    translation = np.array([0.16 * action[0], 0.16 * action[1]], dtype=np.float32)
-    angle = float(0.35 * action[2])
+def physical_step(
+    object_type: str,
+    state: np.ndarray,
+    action: np.ndarray,
+    mass: float,
+    friction: float,
+) -> np.ndarray:
+    dt = 0.12
+    force = action[:2] * 1.5
+    displacement = dt * dt * force / mass
+    displacement *= max(0.0, 1.0 - friction * 0.35)
+    angle = float(dt * dt * action[2] / (mass * 0.18))
+    angle *= max(0.0, 1.0 - friction * 0.25)
+    center = state.mean(axis=0)
+    translated = state + displacement
 
     if object_type == "rigid":
-        local = np.array([[-0.25, -0.12], [-0.25, 0.12], [0.25, -0.12], [0.25, 0.12]], dtype=np.float32)
-        center = rng.uniform(-0.3, 0.3, size=2).astype(np.float32)
-        state = local @ rotation(float(rng.uniform(-math.pi, math.pi))).T + center
-        next_state = state @ rotation(angle).T + translation
-        return Sample(state, action, next_state.astype(np.float32))
+        return ((translated - center) @ rotation(angle).T + center).astype(np.float32)
 
     if object_type != "articulated":
         raise ValueError(f"Unknown object type: {object_type}")
 
-    base = np.array([[-0.35, -0.10], [-0.35, 0.10], [0.0, -0.10], [0.0, 0.10]], dtype=np.float32)
-    child = np.array([[0.0, -0.10], [0.0, 0.10], [0.35, -0.10], [0.35, 0.10]], dtype=np.float32)
-    center = rng.uniform(-0.3, 0.3, size=2).astype(np.float32)
-    base_angle = float(rng.uniform(-math.pi, math.pi))
-    base_rotation = rotation(base_angle)
-    state = np.concatenate([base @ base_rotation.T, child @ base_rotation.T], axis=0) + center
-    joint_angle = 0.75 * action[2] + 0.10 * action[0]
-    next_base = base @ rotation(base_angle + angle).T + center + translation
-    next_child_local = child @ rotation(base_angle + angle + joint_angle).T
-    next_state = np.concatenate([next_base, next_child_local + center + translation], axis=0)
-    return Sample(state.astype(np.float32), action, next_state.astype(np.float32))
+    base = translated[:4]
+    child = translated[4:]
+    base_center = base.mean(axis=0)
+    base = (base - base_center) @ rotation(angle).T + base_center
+    child_center = child.mean(axis=0)
+    joint_angle = 0.65 * angle + 0.04 * action[2]
+    child = (child - child_center) @ rotation(joint_angle).T + child_center
+    return np.concatenate([base, child], axis=0).astype(np.float32)
 
 
-def make_dataset(object_type: str, size: int, seed: int) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor]:
+def make_transition(
+    object_type: str,
+    rng: np.random.Generator,
+    action_noise: float = 0.0,
+    observation_noise: float = 0.0,
+) -> Sample:
+    clean_action = rng.uniform(-1.0, 1.0, size=3).astype(np.float32)
+    action = clean_action + rng.normal(0.0, action_noise, size=3).astype(np.float32)
+    mass = float(rng.uniform(0.5, 2.0))
+    friction = float(rng.uniform(0.15, 0.65))
+
+    if object_type == "rigid":
+        local = np.array([[-0.25, -0.12], [-0.25, 0.12], [0.25, -0.12], [0.25, 0.12]], dtype=np.float32)
+        center = rng.uniform(-0.15, 0.15, size=2).astype(np.float32)
+        state = local @ rotation(float(rng.uniform(-math.pi, math.pi))).T + center
+    else:
+        base = np.array([[-0.35, -0.10], [-0.35, 0.10], [0.0, -0.10], [0.0, 0.10]], dtype=np.float32)
+        child = np.array([[0.0, -0.10], [0.0, 0.10], [0.35, -0.10], [0.35, 0.10]], dtype=np.float32)
+        center = rng.uniform(-0.15, 0.15, size=2).astype(np.float32)
+        base_angle = float(rng.uniform(-math.pi, math.pi))
+        state = np.concatenate([base @ rotation(base_angle).T, child @ rotation(base_angle).T], axis=0) + center
+    next_state = physical_step(object_type, state, clean_action, mass, friction)
+    observed_state = state + rng.normal(0.0, observation_noise, state.shape).astype(np.float32)
+    return Sample(observed_state.astype(np.float32), action, next_state, mass, friction)
+
+
+def make_dataset(
+    object_type: str,
+    size: int,
+    seed: int,
+    action_noise: float = 0.0,
+    observation_noise: float = 0.0,
+) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor, np.ndarray, np.ndarray]:
     rng = np.random.default_rng(seed)
-    samples = [make_transition(object_type, rng) for _ in range(size)]
+    samples = [make_transition(object_type, rng, action_noise, observation_noise) for _ in range(size)]
     states = torch.from_numpy(np.stack([sample.state for sample in samples]))
     actions = torch.from_numpy(np.stack([sample.action for sample in samples]))
     next_states = torch.from_numpy(np.stack([sample.next_state for sample in samples]))
-    return states, actions, next_states
+    masses = np.asarray([sample.mass for sample in samples], dtype=np.float32)
+    frictions = np.asarray([sample.friction for sample in samples], dtype=np.float32)
+    return states, actions, next_states, masses, frictions
 
 
-def save_dataset(data: tuple[torch.Tensor, torch.Tensor, torch.Tensor], path: Path) -> None:
-    states, actions, next_states = data
+def save_dataset(data: tuple[torch.Tensor, torch.Tensor, torch.Tensor, np.ndarray, np.ndarray], path: Path) -> None:
+    states, actions, next_states, masses, frictions = data
     path.parent.mkdir(parents=True, exist_ok=True)
     np.savez_compressed(
         path,
         states=states.numpy(),
         actions=actions.numpy(),
         next_states=next_states.numpy(),
+        masses=masses,
+        frictions=frictions,
     )
 
 
@@ -157,14 +205,14 @@ def prior_pairs(prior: str, object_type: str) -> list[tuple[int, int]]:
 def train_model(
     object_type: str,
     prior: str,
-    train_data: tuple[torch.Tensor, torch.Tensor, torch.Tensor],
+    train_data: tuple[torch.Tensor, torch.Tensor, torch.Tensor, np.ndarray, np.ndarray],
     epochs: int,
     batch_size: int,
     learning_rate: float,
     prior_weight: float,
     hidden_dim: int,
 ) -> DynamicsNet:
-    states, actions, targets = train_data
+    states, actions, targets, _, _ = train_data
     model = DynamicsNet(keypoints=train_data[0].shape[1], hidden_dim=hidden_dim)
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
     pairs = prior_pairs(prior, object_type)
@@ -190,8 +238,8 @@ def train_model(
     return model
 
 
-def evaluate(model: DynamicsNet, object_type: str, prior: str, test_data: tuple[torch.Tensor, torch.Tensor, torch.Tensor]) -> tuple[float, float]:
-    states, actions, targets = test_data
+def evaluate(model: DynamicsNet, object_type: str, prior: str, test_data: tuple[torch.Tensor, torch.Tensor, torch.Tensor, np.ndarray, np.ndarray]) -> tuple[float, float]:
+    states, actions, targets, _, _ = test_data
     with torch.no_grad():
         predictions = model(states, actions)
         prediction_error = torch.mean(torch.linalg.vector_norm(predictions - targets, dim=2)).item()
@@ -202,6 +250,41 @@ def evaluate(model: DynamicsNet, object_type: str, prior: str, test_data: tuple[
             torch.abs(pair_distances(predictions, consistency_pairs) - pair_distances(states, consistency_pairs))
         ).item()
     return prediction_error, violation
+
+
+def planning_success_rate(
+    model: DynamicsNet,
+    object_type: str,
+    test_data: tuple[torch.Tensor, torch.Tensor, torch.Tensor, np.ndarray, np.ndarray],
+    episodes: int,
+    horizon: int,
+    candidate_count: int,
+    action_noise: float,
+    seed: int,
+) -> float:
+    states, _, _, masses, frictions = test_data
+    rng = np.random.default_rng(seed)
+    action_values = np.linspace(-1.0, 1.0, 3)
+    candidates = np.asarray(
+        [[force_x, force_y, torque] for force_x in action_values for force_y in action_values for torque in action_values],
+        dtype=np.float32,
+    )[:candidate_count]
+    successes = 0
+    for index in range(min(episodes, len(states))):
+        current = states[index : index + 1]
+        for _ in range(horizon):
+            rollout_states = current.repeat(len(candidates), 1, 1)
+            rollout_actions = torch.from_numpy(candidates)
+            predicted = model(rollout_states, rollout_actions)
+            scores = torch.linalg.vector_norm(predicted.mean(dim=1), dim=1)
+            action = candidates[int(torch.argmin(scores))]
+            executed_action = action + rng.normal(0.0, action_noise, size=3).astype(np.float32)
+            current = torch.from_numpy(
+                physical_step(object_type, current[0].numpy(), executed_action, float(masses[index]), float(frictions[index]))
+            ).unsqueeze(0)
+        if torch.linalg.vector_norm(current.mean(dim=1)).item() < 0.08:
+            successes += 1
+    return successes / max(1, min(episodes, len(states)))
 
 
 def save_results(results: list[Result], output_dir: Path) -> None:
@@ -253,11 +336,23 @@ def main() -> None:
     results: list[Result] = []
     data_dir = args.output_dir / "data"
     for object_type in ["rigid", "articulated"]:
-        test_data = make_dataset(object_type, args.test_size, seed=100000 + (0 if object_type == "rigid" else 1))
+        test_data = make_dataset(
+            object_type,
+            args.test_size,
+            seed=100000 + (0 if object_type == "rigid" else 1),
+            action_noise=args.action_noise,
+            observation_noise=args.observation_noise,
+        )
         save_dataset(test_data, data_dir / f"test_{object_type}.npz")
         for train_size in args.train_sizes:
             for seed in args.seeds:
-                train_data = make_dataset(object_type, train_size, seed=seed + (1000 if object_type == "articulated" else 0))
+                train_data = make_dataset(
+                    object_type,
+                    train_size,
+                    seed=seed + (1000 if object_type == "articulated" else 0),
+                    action_noise=args.action_noise,
+                    observation_noise=args.observation_noise,
+                )
                 save_dataset(train_data, data_dir / f"train_{object_type}_n{train_size}_seed{seed}.npz")
                 for prior in ["none", "global", "part"]:
                     weights = [0.0] if prior == "none" else args.prior_weights
@@ -268,7 +363,17 @@ def main() -> None:
                             args.learning_rate, prior_weight, args.hidden_dim,
                         )
                         error, violation = evaluate(model, object_type, prior, test_data)
-                        result = Result(object_type, prior, train_size, seed, prior_weight, error, violation)
+                        planning = planning_success_rate(
+                            model,
+                            object_type,
+                            test_data,
+                            args.planning_episodes,
+                            args.planning_horizon,
+                            args.planning_candidates,
+                            args.action_noise,
+                            seed + 500000,
+                        )
+                        result = Result(object_type, prior, train_size, seed, prior_weight, error, violation, planning)
                         results.append(result)
                         print(asdict(result))
     save_results(results, args.output_dir)

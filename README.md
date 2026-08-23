@@ -32,6 +32,13 @@ planar motion: a rigid object receives a shared SE(2)-like transform, while an
 articulated object has a fixed base part and a revolute joint whose angle is
 action-dependent.
 
+The realistic setting adds randomized mass and friction, force/torque-based
+integration, Gaussian action execution noise, and Gaussian keypoint
+observation noise. Planning uses short-horizon model-predictive control: the
+learned model scores candidate actions, then the selected actions are executed
+with the true simulator dynamics. `metrics.csv` additionally records
+`planning_success`, the fraction of planning episodes reaching the origin.
+
 The completed sensitivity run in `runs/lambda_sensitivity/` contains 312
 results: 4 training sizes, 3 seeds, 6 nonzero lambda values for each prior,
 and the no-prior baseline.
@@ -61,4 +68,15 @@ Run the lambda sensitivity study:
   --output_dir /home/yjxie/structural_prior_experiment/runs/lambda_sensitivity \
   --train_sizes 100 500 1000 5000 --seeds 0 1 2 \
   --prior_weights 0.001 0.01 0.1 0.3 1.0 2.0 --epochs 150
+```
+
+Run the realistic planning evaluation:
+
+```bash
+/home/yjxie/miniconda3/envs/vla/bin/python /home/yjxie/structural_prior_experiment/run_experiment.py \
+  --output_dir /home/yjxie/structural_prior_experiment/runs/realistic \
+  --train_sizes 100 500 1000 --seeds 0 1 \
+  --prior_weights 0.01 0.1 0.3 1.0 --epochs 100 \
+  --action_noise 0.08 --observation_noise 0.01 \
+  --planning_episodes 50 --planning_horizon 4 --planning_candidates 27
 ```
