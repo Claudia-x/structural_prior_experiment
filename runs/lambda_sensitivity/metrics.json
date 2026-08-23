@@ -1,0 +1,2810 @@
+[
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.0,
+    "prediction_error": 0.034978948533535004,
+    "structural_violation": 0.02308497577905655
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.001,
+    "prediction_error": 0.03497195988893509,
+    "structural_violation": 0.023074058815836906
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.03505108878016472,
+    "structural_violation": 0.02303243987262249
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.03682844340801239,
+    "structural_violation": 0.023302461951971054
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.04375836253166199,
+    "structural_violation": 0.020539503544569016
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.05513429641723633,
+    "structural_violation": 0.010797027498483658
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 2.0,
+    "prediction_error": 0.05801001563668251,
+    "structural_violation": 0.008809373714029789
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.001,
+    "prediction_error": 0.03497195988893509,
+    "structural_violation": 0.023074058815836906
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.03505108878016472,
+    "structural_violation": 0.02303243987262249
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.03682844340801239,
+    "structural_violation": 0.023302461951971054
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.04375836253166199,
+    "structural_violation": 0.020539503544569016
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.05513429641723633,
+    "structural_violation": 0.010797027498483658
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 2.0,
+    "prediction_error": 0.05801001563668251,
+    "structural_violation": 0.008809373714029789
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.0,
+    "prediction_error": 0.04825548455119133,
+    "structural_violation": 0.023471727967262268
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.001,
+    "prediction_error": 0.04824547469615936,
+    "structural_violation": 0.023472730070352554
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.04839429631829262,
+    "structural_violation": 0.023344406858086586
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.04944208636879921,
+    "structural_violation": 0.021300802007317543
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.05450752377510071,
+    "structural_violation": 0.014416194520890713
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.058887965977191925,
+    "structural_violation": 0.010229261592030525
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 2.0,
+    "prediction_error": 0.05951881408691406,
+    "structural_violation": 0.008346435613930225
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.001,
+    "prediction_error": 0.04824547469615936,
+    "structural_violation": 0.023472730070352554
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.04839429631829262,
+    "structural_violation": 0.023344406858086586
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.04944208636879921,
+    "structural_violation": 0.021300802007317543
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.05450752377510071,
+    "structural_violation": 0.014416194520890713
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.058887965977191925,
+    "structural_violation": 0.010229261592030525
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 2.0,
+    "prediction_error": 0.05951881408691406,
+    "structural_violation": 0.008346435613930225
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 0.0,
+    "prediction_error": 0.03929826617240906,
+    "structural_violation": 0.020782921463251114
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 0.001,
+    "prediction_error": 0.039307791739702225,
+    "structural_violation": 0.02077510766685009
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 0.01,
+    "prediction_error": 0.039156798273324966,
+    "structural_violation": 0.02060198411345482
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 0.1,
+    "prediction_error": 0.040047843009233475,
+    "structural_violation": 0.019541805610060692
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 0.3,
+    "prediction_error": 0.04504010081291199,
+    "structural_violation": 0.017732879146933556
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 1.0,
+    "prediction_error": 0.05493748560547829,
+    "structural_violation": 0.011653843335807323
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 2.0,
+    "prediction_error": 0.057934291660785675,
+    "structural_violation": 0.0084236403927207
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 0.001,
+    "prediction_error": 0.039307791739702225,
+    "structural_violation": 0.02077510766685009
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 0.01,
+    "prediction_error": 0.039156798273324966,
+    "structural_violation": 0.02060198411345482
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 0.1,
+    "prediction_error": 0.040047843009233475,
+    "structural_violation": 0.019541805610060692
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 0.3,
+    "prediction_error": 0.04504010081291199,
+    "structural_violation": 0.017732879146933556
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 1.0,
+    "prediction_error": 0.05493748560547829,
+    "structural_violation": 0.011653843335807323
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 2.0,
+    "prediction_error": 0.057934291660785675,
+    "structural_violation": 0.0084236403927207
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.0,
+    "prediction_error": 0.011496482416987419,
+    "structural_violation": 0.006887254770845175
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.001,
+    "prediction_error": 0.011499177664518356,
+    "structural_violation": 0.0069326311349868774
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.01132566761225462,
+    "structural_violation": 0.006996878422796726
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.010321061126887798,
+    "structural_violation": 0.007557190489023924
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.010483083315193653,
+    "structural_violation": 0.007958752103149891
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.010947353206574917,
+    "structural_violation": 0.007368374615907669
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 2.0,
+    "prediction_error": 0.012209022417664528,
+    "structural_violation": 0.006551648955792189
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.001,
+    "prediction_error": 0.011499177664518356,
+    "structural_violation": 0.0069326311349868774
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.01132566761225462,
+    "structural_violation": 0.006996878422796726
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.010321061126887798,
+    "structural_violation": 0.007557190489023924
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.010483083315193653,
+    "structural_violation": 0.007958752103149891
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.010947353206574917,
+    "structural_violation": 0.007368374615907669
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 2.0,
+    "prediction_error": 0.012209022417664528,
+    "structural_violation": 0.006551648955792189
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.0,
+    "prediction_error": 0.010023701004683971,
+    "structural_violation": 0.0074364845640957355
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.001,
+    "prediction_error": 0.010031471960246563,
+    "structural_violation": 0.0074392096139490604
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.010065540671348572,
+    "structural_violation": 0.007476218976080418
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.010367898270487785,
+    "structural_violation": 0.008005860261619091
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.009498897939920425,
+    "structural_violation": 0.007051700726151466
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.009934922680258751,
+    "structural_violation": 0.006649168208241463
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 2.0,
+    "prediction_error": 0.012343262322247028,
+    "structural_violation": 0.008307387121021748
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.001,
+    "prediction_error": 0.010031471960246563,
+    "structural_violation": 0.0074392096139490604
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.010065540671348572,
+    "structural_violation": 0.007476218976080418
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.010367898270487785,
+    "structural_violation": 0.008005860261619091
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.009498897939920425,
+    "structural_violation": 0.007051700726151466
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.009934922680258751,
+    "structural_violation": 0.006649168208241463
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 2.0,
+    "prediction_error": 0.012343262322247028,
+    "structural_violation": 0.008307387121021748
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 0.0,
+    "prediction_error": 0.010567985475063324,
+    "structural_violation": 0.006377914920449257
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 0.001,
+    "prediction_error": 0.01062475610524416,
+    "structural_violation": 0.006382935680449009
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 0.01,
+    "prediction_error": 0.010484831407666206,
+    "structural_violation": 0.0064897919073700905
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 0.1,
+    "prediction_error": 0.009427953511476517,
+    "structural_violation": 0.007146647199988365
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 0.3,
+    "prediction_error": 0.008862847462296486,
+    "structural_violation": 0.006130419205874205
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 1.0,
+    "prediction_error": 0.016000516712665558,
+    "structural_violation": 0.014250493608415127
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 2.0,
+    "prediction_error": 0.013709448277950287,
+    "structural_violation": 0.009995407424867153
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 0.001,
+    "prediction_error": 0.01062475610524416,
+    "structural_violation": 0.006382935680449009
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 0.01,
+    "prediction_error": 0.010484831407666206,
+    "structural_violation": 0.0064897919073700905
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 0.1,
+    "prediction_error": 0.009427953511476517,
+    "structural_violation": 0.007146647199988365
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 0.3,
+    "prediction_error": 0.008862847462296486,
+    "structural_violation": 0.006130419205874205
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 1.0,
+    "prediction_error": 0.016000516712665558,
+    "structural_violation": 0.014250493608415127
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 2.0,
+    "prediction_error": 0.013709448277950287,
+    "structural_violation": 0.009995407424867153
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.0,
+    "prediction_error": 0.008470405824482441,
+    "structural_violation": 0.005701685789972544
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.001,
+    "prediction_error": 0.008496195077896118,
+    "structural_violation": 0.005740201100707054
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.007619169540703297,
+    "structural_violation": 0.005495159886777401
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.007920066826045513,
+    "structural_violation": 0.006021831650286913
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.009117105975747108,
+    "structural_violation": 0.005187144037336111
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.008859528228640556,
+    "structural_violation": 0.005363377742469311
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 2.0,
+    "prediction_error": 0.008268143981695175,
+    "structural_violation": 0.004997991491109133
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.001,
+    "prediction_error": 0.008496195077896118,
+    "structural_violation": 0.005740201100707054
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.007619169540703297,
+    "structural_violation": 0.005495159886777401
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.007920066826045513,
+    "structural_violation": 0.006021831650286913
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.009117105975747108,
+    "structural_violation": 0.005187144037336111
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.008859528228640556,
+    "structural_violation": 0.005363377742469311
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 2.0,
+    "prediction_error": 0.008268143981695175,
+    "structural_violation": 0.004997991491109133
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.0,
+    "prediction_error": 0.01129787229001522,
+    "structural_violation": 0.0072997016832232475
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.001,
+    "prediction_error": 0.011141441762447357,
+    "structural_violation": 0.007319354452192783
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.010478381998836994,
+    "structural_violation": 0.006611900869756937
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.012328648939728737,
+    "structural_violation": 0.008073391392827034
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.012332011014223099,
+    "structural_violation": 0.009159141220152378
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.009459693916141987,
+    "structural_violation": 0.00832725316286087
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 2.0,
+    "prediction_error": 0.007956461049616337,
+    "structural_violation": 0.005592345725744963
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.001,
+    "prediction_error": 0.011141441762447357,
+    "structural_violation": 0.007319354452192783
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.010478381998836994,
+    "structural_violation": 0.006611900869756937
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.012328648939728737,
+    "structural_violation": 0.008073391392827034
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.012332011014223099,
+    "structural_violation": 0.009159141220152378
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.009459693916141987,
+    "structural_violation": 0.00832725316286087
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 2.0,
+    "prediction_error": 0.007956461049616337,
+    "structural_violation": 0.005592345725744963
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 0.0,
+    "prediction_error": 0.008229115977883339,
+    "structural_violation": 0.006210018880665302
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 0.001,
+    "prediction_error": 0.008325552567839622,
+    "structural_violation": 0.0062919980846345425
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 0.01,
+    "prediction_error": 0.008361387066543102,
+    "structural_violation": 0.00627416605129838
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 0.1,
+    "prediction_error": 0.008699988946318626,
+    "structural_violation": 0.005995466373860836
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 0.3,
+    "prediction_error": 0.009655513800680637,
+    "structural_violation": 0.007895482704043388
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 1.0,
+    "prediction_error": 0.007921257056295872,
+    "structural_violation": 0.006057850085198879
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 2.0,
+    "prediction_error": 0.00699938740581274,
+    "structural_violation": 0.004329165909439325
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 0.001,
+    "prediction_error": 0.008325552567839622,
+    "structural_violation": 0.0062919980846345425
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 0.01,
+    "prediction_error": 0.008361387066543102,
+    "structural_violation": 0.00627416605129838
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 0.1,
+    "prediction_error": 0.008699988946318626,
+    "structural_violation": 0.005995466373860836
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 0.3,
+    "prediction_error": 0.009655513800680637,
+    "structural_violation": 0.007895482704043388
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 1.0,
+    "prediction_error": 0.007921257056295872,
+    "structural_violation": 0.006057850085198879
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 2.0,
+    "prediction_error": 0.00699938740581274,
+    "structural_violation": 0.004329165909439325
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 0.0,
+    "prediction_error": 0.009969265200197697,
+    "structural_violation": 0.0038923886604607105
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 0.001,
+    "prediction_error": 0.010179325006902218,
+    "structural_violation": 0.003671698970720172
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.010047602467238903,
+    "structural_violation": 0.0034534826409071684
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.0106147276237607,
+    "structural_violation": 0.00446039903908968
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.012600386515259743,
+    "structural_violation": 0.005840272177010775
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.008506396785378456,
+    "structural_violation": 0.0032476945780217648
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 2.0,
+    "prediction_error": 0.009012095630168915,
+    "structural_violation": 0.003721088171005249
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 0.001,
+    "prediction_error": 0.010179325006902218,
+    "structural_violation": 0.003671698970720172
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.010047602467238903,
+    "structural_violation": 0.0034534826409071684
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.0106147276237607,
+    "structural_violation": 0.00446039903908968
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.012600386515259743,
+    "structural_violation": 0.005840272177010775
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.008506396785378456,
+    "structural_violation": 0.0032476945780217648
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 2.0,
+    "prediction_error": 0.009012095630168915,
+    "structural_violation": 0.003721088171005249
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 0.0,
+    "prediction_error": 0.00917678140103817,
+    "structural_violation": 0.0054948716424405575
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 0.001,
+    "prediction_error": 0.009171484038233757,
+    "structural_violation": 0.005094620399177074
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.009584632702171803,
+    "structural_violation": 0.005115718115121126
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.010347128845751286,
+    "structural_violation": 0.0056667872704565525
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.011734258383512497,
+    "structural_violation": 0.005809435620903969
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.009447897784411907,
+    "structural_violation": 0.004628908820450306
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 2.0,
+    "prediction_error": 0.0071728406473994255,
+    "structural_violation": 0.0026846560649573803
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 0.001,
+    "prediction_error": 0.009171484038233757,
+    "structural_violation": 0.005094620399177074
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.009584632702171803,
+    "structural_violation": 0.005115718115121126
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.010347128845751286,
+    "structural_violation": 0.0056667872704565525
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.011734258383512497,
+    "structural_violation": 0.005809435620903969
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.009447897784411907,
+    "structural_violation": 0.004628908820450306
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 2.0,
+    "prediction_error": 0.0071728406473994255,
+    "structural_violation": 0.0026846560649573803
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 0.0,
+    "prediction_error": 0.00863668229430914,
+    "structural_violation": 0.006138963159173727
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 0.001,
+    "prediction_error": 0.009144461713731289,
+    "structural_violation": 0.006967737339437008
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 0.01,
+    "prediction_error": 0.00915788859128952,
+    "structural_violation": 0.005844742525368929
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 0.1,
+    "prediction_error": 0.011772305704653263,
+    "structural_violation": 0.0049526202492415905
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 0.3,
+    "prediction_error": 0.010601751506328583,
+    "structural_violation": 0.00485984468832612
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 1.0,
+    "prediction_error": 0.009910291992127895,
+    "structural_violation": 0.006862386595457792
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 2.0,
+    "prediction_error": 0.006351834628731012,
+    "structural_violation": 0.004101583268493414
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 0.001,
+    "prediction_error": 0.009144461713731289,
+    "structural_violation": 0.006967737339437008
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 0.01,
+    "prediction_error": 0.00915788859128952,
+    "structural_violation": 0.005844742525368929
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 0.1,
+    "prediction_error": 0.011772305704653263,
+    "structural_violation": 0.0049526202492415905
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 0.3,
+    "prediction_error": 0.010601751506328583,
+    "structural_violation": 0.00485984468832612
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 1.0,
+    "prediction_error": 0.009910291992127895,
+    "structural_violation": 0.006862386595457792
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 2.0,
+    "prediction_error": 0.006351834628731012,
+    "structural_violation": 0.004101583268493414
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.0,
+    "prediction_error": 0.024446357041597366,
+    "structural_violation": 0.01794515922665596
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.001,
+    "prediction_error": 0.024453261867165565,
+    "structural_violation": 0.01794247142970562
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.024533424526453018,
+    "structural_violation": 0.01795368455350399
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.025418251752853394,
+    "structural_violation": 0.018073206767439842
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.02773910015821457,
+    "structural_violation": 0.018493393436074257
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.05698562040925026,
+    "structural_violation": 0.02192479372024536
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 2.0,
+    "prediction_error": 0.07893811166286469,
+    "structural_violation": 0.011126858182251453
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.001,
+    "prediction_error": 0.024459432810544968,
+    "structural_violation": 0.01794796995818615
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.0244759451597929,
+    "structural_violation": 0.017926279455423355
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.025011925026774406,
+    "structural_violation": 0.017904845997691154
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.025948908179998398,
+    "structural_violation": 0.017621366307139397
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.03752206265926361,
+    "structural_violation": 0.020404426380991936
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 2.0,
+    "prediction_error": 0.06291520595550537,
+    "structural_violation": 0.016326094046235085
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.0,
+    "prediction_error": 0.033135510981082916,
+    "structural_violation": 0.025063710287213326
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.001,
+    "prediction_error": 0.0329350084066391,
+    "structural_violation": 0.02491815760731697
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.0356442965567112,
+    "structural_violation": 0.027513964101672173
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.03811388835310936,
+    "structural_violation": 0.029747508466243744
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.05287688598036766,
+    "structural_violation": 0.024473652243614197
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.0787428468465805,
+    "structural_violation": 0.013332926668226719
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 2.0,
+    "prediction_error": 0.08121403306722641,
+    "structural_violation": 0.009280138649046421
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.001,
+    "prediction_error": 0.03315498307347298,
+    "structural_violation": 0.025065364316105843
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.03211406618356705,
+    "structural_violation": 0.024304354563355446
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.03454933315515518,
+    "structural_violation": 0.025935159996151924
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.04160357639193535,
+    "structural_violation": 0.026609601452946663
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.07689416408538818,
+    "structural_violation": 0.012533357366919518
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 2.0,
+    "prediction_error": 0.08070197701454163,
+    "structural_violation": 0.008393649943172932
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 0.0,
+    "prediction_error": 0.024579495191574097,
+    "structural_violation": 0.018580399453639984
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 0.001,
+    "prediction_error": 0.024585362523794174,
+    "structural_violation": 0.018583428114652634
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 0.01,
+    "prediction_error": 0.024587523192167282,
+    "structural_violation": 0.01856161467730999
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 0.1,
+    "prediction_error": 0.025537265464663506,
+    "structural_violation": 0.018556298688054085
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 0.3,
+    "prediction_error": 0.028739064931869507,
+    "structural_violation": 0.020742740482091904
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 1.0,
+    "prediction_error": 0.06496872752904892,
+    "structural_violation": 0.022125152871012688
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 2.0,
+    "prediction_error": 0.08048442006111145,
+    "structural_violation": 0.011596516706049442
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 0.001,
+    "prediction_error": 0.02456924505531788,
+    "structural_violation": 0.018566429615020752
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 0.01,
+    "prediction_error": 0.024571547284722328,
+    "structural_violation": 0.018530676141381264
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 0.1,
+    "prediction_error": 0.02488311007618904,
+    "structural_violation": 0.018180646002292633
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 0.3,
+    "prediction_error": 0.02678585611283779,
+    "structural_violation": 0.01846936345100403
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 1.0,
+    "prediction_error": 0.04197070375084877,
+    "structural_violation": 0.02290206588804722
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 2,
+    "prior_weight": 2.0,
+    "prediction_error": 0.07353846728801727,
+    "structural_violation": 0.017429068684577942
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.0,
+    "prediction_error": 0.008280311711132526,
+    "structural_violation": 0.0055444869212806225
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.001,
+    "prediction_error": 0.008276460692286491,
+    "structural_violation": 0.005536118056625128
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.008266357704997063,
+    "structural_violation": 0.005509867332875729
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.008609255775809288,
+    "structural_violation": 0.005879311356693506
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.00965349841862917,
+    "structural_violation": 0.00658154021948576
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.014384672977030277,
+    "structural_violation": 0.007539004553109407
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 2.0,
+    "prediction_error": 0.01857941597700119,
+    "structural_violation": 0.009464734233915806
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.001,
+    "prediction_error": 0.008276360109448433,
+    "structural_violation": 0.005535715259611607
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.008274047635495663,
+    "structural_violation": 0.00550455367192626
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.008125953376293182,
+    "structural_violation": 0.00533608254045248
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.008288029581308365,
+    "structural_violation": 0.005689912009984255
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.008133760653436184,
+    "structural_violation": 0.004320801235735416
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 2.0,
+    "prediction_error": 0.010444902814924717,
+    "structural_violation": 0.007167890667915344
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.0,
+    "prediction_error": 0.009405037388205528,
+    "structural_violation": 0.006374636199325323
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.001,
+    "prediction_error": 0.009430266916751862,
+    "structural_violation": 0.006399836391210556
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.009534469805657864,
+    "structural_violation": 0.00652284175157547
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.010279679670929909,
+    "structural_violation": 0.006784793920814991
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.010568130761384964,
+    "structural_violation": 0.006699649151414633
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.014560571871697903,
+    "structural_violation": 0.007974641397595406
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 2.0,
+    "prediction_error": 0.018923981115221977,
+    "structural_violation": 0.008393801748752594
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.001,
+    "prediction_error": 0.009414243511855602,
+    "structural_violation": 0.006382820662111044
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.009477769955992699,
+    "structural_violation": 0.0064436402171850204
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.010373727418482304,
+    "structural_violation": 0.0071137165650725365
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.00987888965755701,
+    "structural_violation": 0.006631423719227314
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.010245628654956818,
+    "structural_violation": 0.006765628233551979
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 2.0,
+    "prediction_error": 0.011055165901780128,
+    "structural_violation": 0.007032249588519335
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 0.0,
+    "prediction_error": 0.008219951763749123,
+    "structural_violation": 0.005997959990054369
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 0.001,
+    "prediction_error": 0.008210434578359127,
+    "structural_violation": 0.005990160163491964
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 0.01,
+    "prediction_error": 0.008186163380742073,
+    "structural_violation": 0.005941692274063826
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 0.1,
+    "prediction_error": 0.00820978544652462,
+    "structural_violation": 0.0057996404357254505
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 0.3,
+    "prediction_error": 0.01090607512742281,
+    "structural_violation": 0.007513624150305986
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 1.0,
+    "prediction_error": 0.014326130039989948,
+    "structural_violation": 0.00789246242493391
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 2.0,
+    "prediction_error": 0.01870589330792427,
+    "structural_violation": 0.008520948700606823
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 0.001,
+    "prediction_error": 0.008220277726650238,
+    "structural_violation": 0.0059940810315310955
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 0.01,
+    "prediction_error": 0.008208553306758404,
+    "structural_violation": 0.00595684302970767
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 0.1,
+    "prediction_error": 0.00806506909430027,
+    "structural_violation": 0.005705729126930237
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 0.3,
+    "prediction_error": 0.008685311302542686,
+    "structural_violation": 0.005740717984735966
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 1.0,
+    "prediction_error": 0.009005921892821789,
+    "structural_violation": 0.0054320371709764
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 2,
+    "prior_weight": 2.0,
+    "prediction_error": 0.009497255086898804,
+    "structural_violation": 0.005275900010019541
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.0,
+    "prediction_error": 0.008300933986902237,
+    "structural_violation": 0.005274420138448477
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.001,
+    "prediction_error": 0.008333302102982998,
+    "structural_violation": 0.005282869562506676
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.00848471187055111,
+    "structural_violation": 0.005385654512792826
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.008253393694758415,
+    "structural_violation": 0.005361886229366064
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.009965583682060242,
+    "structural_violation": 0.006082781590521336
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.012021446600556374,
+    "structural_violation": 0.0066445497795939445
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 2.0,
+    "prediction_error": 0.01700933836400509,
+    "structural_violation": 0.00810676533728838
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.001,
+    "prediction_error": 0.00831975694745779,
+    "structural_violation": 0.005286602769047022
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.008334258571267128,
+    "structural_violation": 0.005336241330951452
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.008146455511450768,
+    "structural_violation": 0.005770470947027206
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.006634168792515993,
+    "structural_violation": 0.0044248695485293865
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.0069110458716750145,
+    "structural_violation": 0.004455538932234049
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 2.0,
+    "prediction_error": 0.00827223714441061,
+    "structural_violation": 0.006021144334226847
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.0,
+    "prediction_error": 0.009078078903257847,
+    "structural_violation": 0.004831050056964159
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.001,
+    "prediction_error": 0.009091491810977459,
+    "structural_violation": 0.00482554268091917
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.009148471988737583,
+    "structural_violation": 0.004866619128733873
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.007871964015066624,
+    "structural_violation": 0.005413081031292677
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.008409128524363041,
+    "structural_violation": 0.00565355597063899
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.012429161928594112,
+    "structural_violation": 0.007205652073025703
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 2.0,
+    "prediction_error": 0.016733886674046516,
+    "structural_violation": 0.007542253937572241
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.001,
+    "prediction_error": 0.009128937497735023,
+    "structural_violation": 0.004857328254729509
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.009490291588008404,
+    "structural_violation": 0.00487258518114686
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.011821738444268703,
+    "structural_violation": 0.005270353052765131
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.008944271132349968,
+    "structural_violation": 0.005778043530881405
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.00645636348053813,
+    "structural_violation": 0.004780075512826443
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 2.0,
+    "prediction_error": 0.007352904416620731,
+    "structural_violation": 0.004818640183657408
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 0.0,
+    "prediction_error": 0.007093978580087423,
+    "structural_violation": 0.0049707950092852116
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 0.001,
+    "prediction_error": 0.007149018347263336,
+    "structural_violation": 0.004992613568902016
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 0.01,
+    "prediction_error": 0.007016787305474281,
+    "structural_violation": 0.0050192344933748245
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 0.1,
+    "prediction_error": 0.006943453568965197,
+    "structural_violation": 0.004695508163422346
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 0.3,
+    "prediction_error": 0.009786494076251984,
+    "structural_violation": 0.005721556954085827
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 1.0,
+    "prediction_error": 0.013855306431651115,
+    "structural_violation": 0.008698458783328533
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 2.0,
+    "prediction_error": 0.018075942993164062,
+    "structural_violation": 0.008975153788924217
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 0.001,
+    "prediction_error": 0.0070807659067213535,
+    "structural_violation": 0.004971069283783436
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 0.01,
+    "prediction_error": 0.00702613964676857,
+    "structural_violation": 0.005044514779001474
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 0.1,
+    "prediction_error": 0.007602370344102383,
+    "structural_violation": 0.004761931952089071
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 0.3,
+    "prediction_error": 0.007488559000194073,
+    "structural_violation": 0.005277229472994804
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 1.0,
+    "prediction_error": 0.007226558402180672,
+    "structural_violation": 0.004351496230810881
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 2,
+    "prior_weight": 2.0,
+    "prediction_error": 0.007682821247726679,
+    "structural_violation": 0.004549024160951376
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 0.0,
+    "prediction_error": 0.00796284805983305,
+    "structural_violation": 0.003908306360244751
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 0.001,
+    "prediction_error": 0.010117122903466225,
+    "structural_violation": 0.003471498377621174
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.010977542027831078,
+    "structural_violation": 0.0040391795337200165
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.01104708667844534,
+    "structural_violation": 0.0061766295693814754
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.010794784873723984,
+    "structural_violation": 0.005276334006339312
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.014254586771130562,
+    "structural_violation": 0.00701111601665616
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 2.0,
+    "prediction_error": 0.018515994772315025,
+    "structural_violation": 0.008391285315155983
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 0.001,
+    "prediction_error": 0.011347522959113121,
+    "structural_violation": 0.0036934532690793276
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.010348569601774216,
+    "structural_violation": 0.004124743398278952
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.01026909239590168,
+    "structural_violation": 0.0052254581823945045
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.008465195074677467,
+    "structural_violation": 0.0031957824248820543
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.009213562123477459,
+    "structural_violation": 0.0059785665944218636
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 0,
+    "prior_weight": 2.0,
+    "prediction_error": 0.013523489236831665,
+    "structural_violation": 0.005659965332597494
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 0.0,
+    "prediction_error": 0.009242535568773746,
+    "structural_violation": 0.0031833485700190067
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 0.001,
+    "prediction_error": 0.011699074879288673,
+    "structural_violation": 0.004846638534218073
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.011312815360724926,
+    "structural_violation": 0.004560193512588739
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.017913538962602615,
+    "structural_violation": 0.0052536348812282085
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.011136429384350777,
+    "structural_violation": 0.0050310674123466015
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.0143470149487257,
+    "structural_violation": 0.007024519611150026
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 2.0,
+    "prediction_error": 0.02047562785446644,
+    "structural_violation": 0.01011594943702221
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 0.001,
+    "prediction_error": 0.009508169256150723,
+    "structural_violation": 0.00382629013620317
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.009669340215623379,
+    "structural_violation": 0.004385520704090595
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.011292601935565472,
+    "structural_violation": 0.0042743198573589325
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.01009005680680275,
+    "structural_violation": 0.004297145176678896
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.009823002852499485,
+    "structural_violation": 0.005393246188759804
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 1,
+    "prior_weight": 2.0,
+    "prediction_error": 0.009279316291213036,
+    "structural_violation": 0.004266418982297182
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 0.0,
+    "prediction_error": 0.009263668209314346,
+    "structural_violation": 0.003631722880527377
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 0.001,
+    "prediction_error": 0.011962413787841797,
+    "structural_violation": 0.0035212337970733643
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 0.01,
+    "prediction_error": 0.010167934000492096,
+    "structural_violation": 0.0038415391463786364
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 0.1,
+    "prediction_error": 0.00854549091309309,
+    "structural_violation": 0.004051057621836662
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 0.3,
+    "prediction_error": 0.013153928332030773,
+    "structural_violation": 0.005576455965638161
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 1.0,
+    "prediction_error": 0.013826251961290836,
+    "structural_violation": 0.007122678216546774
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 2.0,
+    "prediction_error": 0.018036507070064545,
+    "structural_violation": 0.007655016612261534
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 0.001,
+    "prediction_error": 0.00926861073821783,
+    "structural_violation": 0.0044016060419380665
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 0.01,
+    "prediction_error": 0.007939314469695091,
+    "structural_violation": 0.004291618708521128
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 0.1,
+    "prediction_error": 0.010808512568473816,
+    "structural_violation": 0.004172744695097208
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 0.3,
+    "prediction_error": 0.009190112352371216,
+    "structural_violation": 0.004277622327208519
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 1.0,
+    "prediction_error": 0.00945874210447073,
+    "structural_violation": 0.004513402935117483
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 2,
+    "prior_weight": 2.0,
+    "prediction_error": 0.008814126253128052,
+    "structural_violation": 0.0053238761611282825
+  }
+]

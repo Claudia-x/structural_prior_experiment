@@ -18,7 +18,7 @@ Run a quick smoke test from any directory:
   --train_sizes 32 64 --seeds 0 --epochs 10
 ```
 
-Run the initial study:
+Run the normalized baseline study with the default lambda scan:
 
 ```bash
 /home/yjxie/miniconda3/envs/vla/bin/python /home/yjxie/structural_prior_experiment/run_experiment.py \
@@ -31,6 +31,10 @@ error, rigidity violation, and data scaling. The simulator uses analytic
 planar motion: a rigid object receives a shared SE(2)-like transform, while an
 articulated object has a fixed base part and a revolute joint whose angle is
 action-dependent.
+
+The completed sensitivity run in `runs/lambda_sensitivity/` contains 312
+results: 4 training sizes, 3 seeds, 6 nonzero lambda values for each prior,
+and the no-prior baseline.
 
 The training objective is
 
