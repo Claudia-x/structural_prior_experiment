@@ -1,0 +1,1082 @@
+[
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.0,
+    "prediction_error": 0.01547428872436285,
+    "structural_violation": 0.012010296806693077,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.015464352443814278,
+    "structural_violation": 0.011994414031505585,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.015480469912290573,
+    "structural_violation": 0.011933251284062862,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.01549532264471054,
+    "structural_violation": 0.011741889640688896,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.015412048436701298,
+    "structural_violation": 0.011437982320785522,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.015464352443814278,
+    "structural_violation": 0.011994414031505585,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.015480469912290573,
+    "structural_violation": 0.011933251284062862,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.01549532264471054,
+    "structural_violation": 0.011741889640688896,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.015412048436701298,
+    "structural_violation": 0.011437982320785522,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.0,
+    "prediction_error": 0.015206980518996716,
+    "structural_violation": 0.012303393334150314,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.01520075835287571,
+    "structural_violation": 0.012284201569855213,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.015163621865212917,
+    "structural_violation": 0.012094972655177116,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.015114954672753811,
+    "structural_violation": 0.011756633408367634,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.015034472569823265,
+    "structural_violation": 0.011577184312045574,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.01520075835287571,
+    "structural_violation": 0.012284201569855213,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.015163621865212917,
+    "structural_violation": 0.012094972655177116,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.015114954672753811,
+    "structural_violation": 0.011756633408367634,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.015034472569823265,
+    "structural_violation": 0.011577184312045574,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.0,
+    "prediction_error": 0.013922290876507759,
+    "structural_violation": 0.013180568814277649,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.013904774561524391,
+    "structural_violation": 0.01308418158441782,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.01384062971919775,
+    "structural_violation": 0.01210477203130722,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.013792656362056732,
+    "structural_violation": 0.010996594093739986,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.014382144436240196,
+    "structural_violation": 0.009330110624432564,
+    "planning_success": 0.84
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.013904774561524391,
+    "structural_violation": 0.01308418158441782,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.01384062971919775,
+    "structural_violation": 0.01210477203130722,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.013792656362056732,
+    "structural_violation": 0.010996594093739986,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.014382144436240196,
+    "structural_violation": 0.009330110624432564,
+    "planning_success": 0.84
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.0,
+    "prediction_error": 0.014529258944094181,
+    "structural_violation": 0.01171368733048439,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.014407034032046795,
+    "structural_violation": 0.011621585115790367,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.01419410016387701,
+    "structural_violation": 0.011262251995503902,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.013676243834197521,
+    "structural_violation": 0.010505546815693378,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.013622738420963287,
+    "structural_violation": 0.009289976209402084,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.014407034032046795,
+    "structural_violation": 0.011621585115790367,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.01419410016387701,
+    "structural_violation": 0.011262251995503902,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.013676243834197521,
+    "structural_violation": 0.010505546815693378,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.013622738420963287,
+    "structural_violation": 0.009289976209402084,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.0,
+    "prediction_error": 0.01373041421175003,
+    "structural_violation": 0.0119131775572896,
+    "planning_success": 0.8
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.013520704582333565,
+    "structural_violation": 0.011717270128428936,
+    "planning_success": 0.8
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.012887313030660152,
+    "structural_violation": 0.010444997809827328,
+    "planning_success": 0.8
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.01368100754916668,
+    "structural_violation": 0.010052083060145378,
+    "planning_success": 0.8
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.013624293729662895,
+    "structural_violation": 0.007786128669977188,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.013520704582333565,
+    "structural_violation": 0.011717270128428936,
+    "planning_success": 0.8
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.012887313030660152,
+    "structural_violation": 0.010444997809827328,
+    "planning_success": 0.8
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.01368100754916668,
+    "structural_violation": 0.010052083060145378,
+    "planning_success": 0.8
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.013624293729662895,
+    "structural_violation": 0.007786128669977188,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.0,
+    "prediction_error": 0.014521053060889244,
+    "structural_violation": 0.012768900021910667,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.014248413033783436,
+    "structural_violation": 0.012035036459565163,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.01363848801702261,
+    "structural_violation": 0.010491416789591312,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.013456320390105247,
+    "structural_violation": 0.010085348039865494,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.01297565083950758,
+    "structural_violation": 0.0076227798126637936,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.014248413033783436,
+    "structural_violation": 0.012035036459565163,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.01363848801702261,
+    "structural_violation": 0.010491416789591312,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.013456320390105247,
+    "structural_violation": 0.010085348039865494,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.01297565083950758,
+    "structural_violation": 0.0076227798126637936,
+    "planning_success": 0.82
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.0,
+    "prediction_error": 0.01217776257544756,
+    "structural_violation": 0.011407529935240746,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.012175309471786022,
+    "structural_violation": 0.011402611620724201,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.01216150913387537,
+    "structural_violation": 0.011371709406375885,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.012167450040578842,
+    "structural_violation": 0.011359193362295628,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.01223713904619217,
+    "structural_violation": 0.011241042986512184,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.012175500392913818,
+    "structural_violation": 0.011396810412406921,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.01212964579463005,
+    "structural_violation": 0.011324175633490086,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.012096982449293137,
+    "structural_violation": 0.01122278068214655,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.012054846622049809,
+    "structural_violation": 0.011035846546292305,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.0,
+    "prediction_error": 0.012908732518553734,
+    "structural_violation": 0.01137471478432417,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.012900717556476593,
+    "structural_violation": 0.011361007578670979,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.012838100083172321,
+    "structural_violation": 0.011211655102670193,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.012812930159270763,
+    "structural_violation": 0.0110815754160285,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.0129588283598423,
+    "structural_violation": 0.01114745531231165,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.012898217886686325,
+    "structural_violation": 0.011355381458997726,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.012853789143264294,
+    "structural_violation": 0.011195039376616478,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.012668902054429054,
+    "structural_violation": 0.01100830640643835,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.012753459624946117,
+    "structural_violation": 0.010829995386302471,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.0,
+    "prediction_error": 0.010956862941384315,
+    "structural_violation": 0.011614619754254818,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.010955200530588627,
+    "structural_violation": 0.011578705161809921,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.01095898263156414,
+    "structural_violation": 0.011271381750702858,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.011213299818336964,
+    "structural_violation": 0.010895851068198681,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.011548402719199657,
+    "structural_violation": 0.009917453862726688,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.010954703204333782,
+    "structural_violation": 0.011580030433833599,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.01107155904173851,
+    "structural_violation": 0.011290800757706165,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.01165933720767498,
+    "structural_violation": 0.011173516511917114,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.011690331622958183,
+    "structural_violation": 0.009550143033266068,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.0,
+    "prediction_error": 0.011406972073018551,
+    "structural_violation": 0.01116173341870308,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.011405630968511105,
+    "structural_violation": 0.011140440590679646,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.011364932172000408,
+    "structural_violation": 0.010928268544375896,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.011479295790195465,
+    "structural_violation": 0.010545047000050545,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.011878546327352524,
+    "structural_violation": 0.009738505817949772,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.011389548890292645,
+    "structural_violation": 0.011126913130283356,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.011286539025604725,
+    "structural_violation": 0.010855266824364662,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.011461730115115643,
+    "structural_violation": 0.010363242588937283,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.012103195302188396,
+    "structural_violation": 0.00917540118098259,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.0,
+    "prediction_error": 0.01078345999121666,
+    "structural_violation": 0.011476459912955761,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.010763176716864109,
+    "structural_violation": 0.011424086056649685,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.01029012817889452,
+    "structural_violation": 0.010851637460291386,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.01020124927163124,
+    "structural_violation": 0.00993312243372202,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.011251134797930717,
+    "structural_violation": 0.00835347082465887,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.01,
+    "prediction_error": 0.01075997669249773,
+    "structural_violation": 0.011421035043895245,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.1,
+    "prediction_error": 0.0102317426353693,
+    "structural_violation": 0.010741548612713814,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 0.3,
+    "prediction_error": 0.010375568643212318,
+    "structural_violation": 0.009841297753155231,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prior_weight": 1.0,
+    "prediction_error": 0.011482592672109604,
+    "structural_violation": 0.008217251859605312,
+    "planning_success": 0.78
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.0,
+    "prediction_error": 0.010362174361944199,
+    "structural_violation": 0.011539838276803493,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.010360823944211006,
+    "structural_violation": 0.011507905088365078,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.010302427224814892,
+    "structural_violation": 0.011016198433935642,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.01057213544845581,
+    "structural_violation": 0.010061417706310749,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.011836903169751167,
+    "structural_violation": 0.008214929141104221,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.01,
+    "prediction_error": 0.010351746343076229,
+    "structural_violation": 0.011489053256809711,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.1,
+    "prediction_error": 0.010300193913280964,
+    "structural_violation": 0.010935459285974503,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 0.3,
+    "prediction_error": 0.010791132226586342,
+    "structural_violation": 0.009797120466828346,
+    "planning_success": 0.74
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prior_weight": 1.0,
+    "prediction_error": 0.01185621041804552,
+    "structural_violation": 0.007279896643012762,
+    "planning_success": 0.74
+  }
+]
