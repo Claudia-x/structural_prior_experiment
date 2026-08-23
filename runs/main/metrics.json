@@ -1,0 +1,962 @@
+[
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 100,
+    "seed": 0,
+    "prediction_error": 0.03498005494475365,
+    "structural_violation": 0.023085488006472588
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prediction_error": 0.05930047482252121,
+    "structural_violation": 0.007467085029929876
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prediction_error": 0.05930047482252121,
+    "structural_violation": 0.007467085029929876
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 100,
+    "seed": 1,
+    "prediction_error": 0.048256415873765945,
+    "structural_violation": 0.023471461609005928
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prediction_error": 0.06010568141937256,
+    "structural_violation": 0.007135146297514439
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prediction_error": 0.06010568141937256,
+    "structural_violation": 0.007135146297514439
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 100,
+    "seed": 2,
+    "prediction_error": 0.03929949924349785,
+    "structural_violation": 0.020782845094799995
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 2,
+    "prediction_error": 0.059524599462747574,
+    "structural_violation": 0.008041288703680038
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 2,
+    "prediction_error": 0.059524599462747574,
+    "structural_violation": 0.008041288703680038
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 100,
+    "seed": 3,
+    "prediction_error": 0.03541703149676323,
+    "structural_violation": 0.01909489743411541
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 3,
+    "prediction_error": 0.05952928215265274,
+    "structural_violation": 0.008362850174307823
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 3,
+    "prediction_error": 0.05952928215265274,
+    "structural_violation": 0.008362850174307823
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 100,
+    "seed": 4,
+    "prediction_error": 0.02994525618851185,
+    "structural_violation": 0.016675742343068123
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 4,
+    "prediction_error": 0.058989085257053375,
+    "structural_violation": 0.006467450875788927
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 4,
+    "prediction_error": 0.058989085257053375,
+    "structural_violation": 0.006467450875788927
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 500,
+    "seed": 0,
+    "prediction_error": 0.011493101716041565,
+    "structural_violation": 0.006886105984449387
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prediction_error": 0.03339582309126854,
+    "structural_violation": 0.009724737145006657
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prediction_error": 0.03339582309126854,
+    "structural_violation": 0.009724737145006657
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 500,
+    "seed": 1,
+    "prediction_error": 0.01002338994294405,
+    "structural_violation": 0.007436502259224653
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prediction_error": 0.04369143024086952,
+    "structural_violation": 0.016718817874789238
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prediction_error": 0.04369143024086952,
+    "structural_violation": 0.016718817874789238
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 500,
+    "seed": 2,
+    "prediction_error": 0.010569349862635136,
+    "structural_violation": 0.006377578712999821
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 2,
+    "prediction_error": 0.019492970779538155,
+    "structural_violation": 0.008463078178465366
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 2,
+    "prediction_error": 0.019492970779538155,
+    "structural_violation": 0.008463078178465366
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 500,
+    "seed": 3,
+    "prediction_error": 0.008776000700891018,
+    "structural_violation": 0.005809324327856302
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 3,
+    "prediction_error": 0.02865678071975708,
+    "structural_violation": 0.009822513908147812
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 3,
+    "prediction_error": 0.02865678071975708,
+    "structural_violation": 0.009822513908147812
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 500,
+    "seed": 4,
+    "prediction_error": 0.009897916577756405,
+    "structural_violation": 0.007477235980331898
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 4,
+    "prediction_error": 0.03141269087791443,
+    "structural_violation": 0.008933454751968384
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 4,
+    "prediction_error": 0.03141269087791443,
+    "structural_violation": 0.008933454751968384
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 1000,
+    "seed": 0,
+    "prediction_error": 0.008465501479804516,
+    "structural_violation": 0.005695808213204145
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prediction_error": 0.010212515480816364,
+    "structural_violation": 0.0050320872105658054
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prediction_error": 0.010212515480816364,
+    "structural_violation": 0.0050320872105658054
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 1000,
+    "seed": 1,
+    "prediction_error": 0.011296135373413563,
+    "structural_violation": 0.007302619982510805
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prediction_error": 0.008441722951829433,
+    "structural_violation": 0.004514195956289768
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prediction_error": 0.008441722951829433,
+    "structural_violation": 0.004514195956289768
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 1000,
+    "seed": 2,
+    "prediction_error": 0.008229576982557774,
+    "structural_violation": 0.006209800019860268
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 2,
+    "prediction_error": 0.011567105539143085,
+    "structural_violation": 0.006499991286545992
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 2,
+    "prediction_error": 0.011567105539143085,
+    "structural_violation": 0.006499991286545992
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 1000,
+    "seed": 3,
+    "prediction_error": 0.008118747733533382,
+    "structural_violation": 0.006386231631040573
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 3,
+    "prediction_error": 0.01139215286821127,
+    "structural_violation": 0.007013585884124041
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 3,
+    "prediction_error": 0.01139215286821127,
+    "structural_violation": 0.007013585884124041
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 1000,
+    "seed": 4,
+    "prediction_error": 0.00877765566110611,
+    "structural_violation": 0.006052463315427303
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 4,
+    "prediction_error": 0.008884904906153679,
+    "structural_violation": 0.004535635467618704
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 4,
+    "prediction_error": 0.008884904906153679,
+    "structural_violation": 0.004535635467618704
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 5000,
+    "seed": 0,
+    "prediction_error": 0.009610813111066818,
+    "structural_violation": 0.003783857449889183
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 0,
+    "prediction_error": 0.00662260502576828,
+    "structural_violation": 0.0022523696534335613
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 0,
+    "prediction_error": 0.00662260502576828,
+    "structural_violation": 0.0022523696534335613
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 5000,
+    "seed": 1,
+    "prediction_error": 0.008994336239993572,
+    "structural_violation": 0.005194573197513819
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 1,
+    "prediction_error": 0.010353070683777332,
+    "structural_violation": 0.003768203780055046
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 1,
+    "prediction_error": 0.010353070683777332,
+    "structural_violation": 0.003768203780055046
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 5000,
+    "seed": 2,
+    "prediction_error": 0.008770153857767582,
+    "structural_violation": 0.006381080020219088
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 2,
+    "prediction_error": 0.019250057637691498,
+    "structural_violation": 0.010258710943162441
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 2,
+    "prediction_error": 0.019250057637691498,
+    "structural_violation": 0.010258710943162441
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 5000,
+    "seed": 3,
+    "prediction_error": 0.012992346659302711,
+    "structural_violation": 0.005655445158481598
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 3,
+    "prediction_error": 0.009145226329565048,
+    "structural_violation": 0.005145707633346319
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 3,
+    "prediction_error": 0.009145226329565048,
+    "structural_violation": 0.005145707633346319
+  },
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 5000,
+    "seed": 4,
+    "prediction_error": 0.010543887503445148,
+    "structural_violation": 0.00947495922446251
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 4,
+    "prediction_error": 0.017872465774416924,
+    "structural_violation": 0.006822473369538784
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 4,
+    "prediction_error": 0.017872465774416924,
+    "structural_violation": 0.006822473369538784
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 100,
+    "seed": 0,
+    "prediction_error": 0.024447087198495865,
+    "structural_violation": 0.017945796251296997
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 0,
+    "prediction_error": 0.08228928595781326,
+    "structural_violation": 0.007396938744932413
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 0,
+    "prediction_error": 0.14031735062599182,
+    "structural_violation": 0.044913411140441895
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 100,
+    "seed": 1,
+    "prediction_error": 0.033170174807310104,
+    "structural_violation": 0.025091275572776794
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 1,
+    "prediction_error": 0.11032465845346451,
+    "structural_violation": 0.04352431744337082
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 1,
+    "prediction_error": 0.11041008681058884,
+    "structural_violation": 0.026329226791858673
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 100,
+    "seed": 2,
+    "prediction_error": 0.024580668658018112,
+    "structural_violation": 0.018581071868538857
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 2,
+    "prediction_error": 0.08311105519533157,
+    "structural_violation": 0.007135437801480293
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 2,
+    "prediction_error": 0.11913377046585083,
+    "structural_violation": 0.03013525903224945
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 100,
+    "seed": 3,
+    "prediction_error": 0.02719942480325699,
+    "structural_violation": 0.02085116319358349
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 3,
+    "prediction_error": 0.08312799781560898,
+    "structural_violation": 0.00818557757884264
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 3,
+    "prediction_error": 0.08410035073757172,
+    "structural_violation": 0.007551329210400581
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 100,
+    "seed": 4,
+    "prediction_error": 0.025485800579190254,
+    "structural_violation": 0.019575973972678185
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 100,
+    "seed": 4,
+    "prediction_error": 0.1422060877084732,
+    "structural_violation": 0.04795799404382706
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 100,
+    "seed": 4,
+    "prediction_error": 0.12980377674102783,
+    "structural_violation": 0.06318993866443634
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 500,
+    "seed": 0,
+    "prediction_error": 0.008280865848064423,
+    "structural_violation": 0.0055457791313529015
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 0,
+    "prediction_error": 0.02486298605799675,
+    "structural_violation": 0.008696678094565868
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 0,
+    "prediction_error": 0.0406818613409996,
+    "structural_violation": 0.017006205394864082
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 500,
+    "seed": 1,
+    "prediction_error": 0.009405123069882393,
+    "structural_violation": 0.006374381482601166
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 1,
+    "prediction_error": 0.027073930948972702,
+    "structural_violation": 0.010422841645777225
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 1,
+    "prediction_error": 0.01734776794910431,
+    "structural_violation": 0.00926369521766901
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 500,
+    "seed": 2,
+    "prediction_error": 0.008219820447266102,
+    "structural_violation": 0.005997661501169205
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 2,
+    "prediction_error": 0.027143416926264763,
+    "structural_violation": 0.009498732164502144
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 2,
+    "prediction_error": 0.0139188002794981,
+    "structural_violation": 0.007938424125313759
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 500,
+    "seed": 3,
+    "prediction_error": 0.007677966263145208,
+    "structural_violation": 0.005143950693309307
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 3,
+    "prediction_error": 0.025660941377282143,
+    "structural_violation": 0.008644805289804935
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 3,
+    "prediction_error": 0.018581626936793327,
+    "structural_violation": 0.008568950928747654
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 500,
+    "seed": 4,
+    "prediction_error": 0.00827755592763424,
+    "structural_violation": 0.0056844474747776985
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 500,
+    "seed": 4,
+    "prediction_error": 0.026218298822641373,
+    "structural_violation": 0.010273948311805725
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 500,
+    "seed": 4,
+    "prediction_error": 0.01582903228700161,
+    "structural_violation": 0.007345173042267561
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 1000,
+    "seed": 0,
+    "prediction_error": 0.008297444321215153,
+    "structural_violation": 0.0052737402729690075
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 0,
+    "prediction_error": 0.023051917552947998,
+    "structural_violation": 0.00942910835146904
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 0,
+    "prediction_error": 0.011780738830566406,
+    "structural_violation": 0.006646288558840752
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 1000,
+    "seed": 1,
+    "prediction_error": 0.009101231582462788,
+    "structural_violation": 0.004835736006498337
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 1,
+    "prediction_error": 0.02174879051744938,
+    "structural_violation": 0.007279734127223492
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 1,
+    "prediction_error": 0.00882730819284916,
+    "structural_violation": 0.004558635409921408
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 1000,
+    "seed": 2,
+    "prediction_error": 0.007090654689818621,
+    "structural_violation": 0.004969384986907244
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 2,
+    "prediction_error": 0.021767623722553253,
+    "structural_violation": 0.006938005331903696
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 2,
+    "prediction_error": 0.007441345136612654,
+    "structural_violation": 0.004053490702062845
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 1000,
+    "seed": 3,
+    "prediction_error": 0.006693272385746241,
+    "structural_violation": 0.003998894244432449
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 3,
+    "prediction_error": 0.022363774478435516,
+    "structural_violation": 0.006785824429243803
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 3,
+    "prediction_error": 0.008734279312193394,
+    "structural_violation": 0.005629802588373423
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 1000,
+    "seed": 4,
+    "prediction_error": 0.006496063433587551,
+    "structural_violation": 0.003797553712502122
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 1000,
+    "seed": 4,
+    "prediction_error": 0.02141745015978813,
+    "structural_violation": 0.00711023947224021
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 1000,
+    "seed": 4,
+    "prediction_error": 0.008164962753653526,
+    "structural_violation": 0.004029202274978161
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 5000,
+    "seed": 0,
+    "prediction_error": 0.011586138047277927,
+    "structural_violation": 0.0035865106619894505
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 0,
+    "prediction_error": 0.020841585472226143,
+    "structural_violation": 0.006116003729403019
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 0,
+    "prediction_error": 0.008488006889820099,
+    "structural_violation": 0.004864613991230726
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 5000,
+    "seed": 1,
+    "prediction_error": 0.010548057965934277,
+    "structural_violation": 0.003667213022708893
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 1,
+    "prediction_error": 0.02389475330710411,
+    "structural_violation": 0.008994740433990955
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 1,
+    "prediction_error": 0.014595954678952694,
+    "structural_violation": 0.009517134167253971
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 5000,
+    "seed": 2,
+    "prediction_error": 0.008305261842906475,
+    "structural_violation": 0.0037595112808048725
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 2,
+    "prediction_error": 0.021440334618091583,
+    "structural_violation": 0.0064480542205274105
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 2,
+    "prediction_error": 0.010068687610328197,
+    "structural_violation": 0.0031136772595345974
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 5000,
+    "seed": 3,
+    "prediction_error": 0.011965658515691757,
+    "structural_violation": 0.004287305288016796
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 3,
+    "prediction_error": 0.021794890984892845,
+    "structural_violation": 0.006301128305494785
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 3,
+    "prediction_error": 0.011246718466281891,
+    "structural_violation": 0.004883200861513615
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 5000,
+    "seed": 4,
+    "prediction_error": 0.011144428513944149,
+    "structural_violation": 0.0042425040155649185
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 5000,
+    "seed": 4,
+    "prediction_error": 0.021886946633458138,
+    "structural_violation": 0.006379786878824234
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 5000,
+    "seed": 4,
+    "prediction_error": 0.010585340671241283,
+    "structural_violation": 0.003830477362498641
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "object_type": "rigid",
+    "prior": "none",
+    "train_size": 8,
+    "seed": 0,
+    "prediction_error": 0.38623109459877014,
+    "structural_violation": 0.23106174170970917
+  },
+  {
+    "object_type": "rigid",
+    "prior": "global",
+    "train_size": 8,
+    "seed": 0,
+    "prediction_error": 0.4535871148109436,
+    "structural_violation": 0.06746511906385422
+  },
+  {
+    "object_type": "rigid",
+    "prior": "part",
+    "train_size": 8,
+    "seed": 0,
+    "prediction_error": 0.4535871148109436,
+    "structural_violation": 0.06746511906385422
+  },
+  {
+    "object_type": "articulated",
+    "prior": "none",
+    "train_size": 8,
+    "seed": 0,
+    "prediction_error": 0.33915194869041443,
+    "structural_violation": 0.13473226130008698
+  },
+  {
+    "object_type": "articulated",
+    "prior": "global",
+    "train_size": 8,
+    "seed": 0,
+    "prediction_error": 0.3586861193180084,
+    "structural_violation": 0.11574527621269226
+  },
+  {
+    "object_type": "articulated",
+    "prior": "part",
+    "train_size": 8,
+    "seed": 0,
+    "prediction_error": 0.35379496216773987,
+    "structural_violation": 0.09515798836946487
+  }
+]
