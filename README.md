@@ -31,3 +31,30 @@ error, rigidity violation, and data scaling. The simulator uses analytic
 planar motion: a rigid object receives a shared SE(2)-like transform, while an
 articulated object has a fixed base part and a revolute joint whose angle is
 action-dependent.
+
+The training objective is
+
+```text
+L = L_pred + lambda * L_prior
+```
+
+Both terms are normalized: `L_pred` is averaged over keypoints and `L_prior`
+is averaged over constrained keypoint pairs. `none` always uses `lambda=0`.
+The `global` and `part` methods scan the values passed through
+`--prior_weights` so the effect of the prior strength can be separated from
+the effect of the prior structure.
+
+Each run also saves reproducible data under `<output_dir>/data/`:
+
+- `test_rigid.npz` and `test_articulated.npz` are fixed test sets;
+- `train_<object>_n<size>_seed<seed>.npz` contains each training set;
+- every archive has `states`, `actions`, and `next_states` arrays.
+
+Run the lambda sensitivity study:
+
+```bash
+/home/yjxie/miniconda3/envs/vla/bin/python /home/yjxie/structural_prior_experiment/run_experiment.py \
+  --output_dir /home/yjxie/structural_prior_experiment/runs/lambda_sensitivity \
+  --train_sizes 100 500 1000 5000 --seeds 0 1 2 \
+  --prior_weights 0.001 0.01 0.1 0.3 1.0 2.0 --epochs 150
+```

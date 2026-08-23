@@ -29,6 +29,7 @@ class Result:
     prior: str
     train_size: int
     seed: int
+    prior_weight: float
     prediction_error: float
     structural_violation: float
 
@@ -43,6 +44,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--batch_size", type=int, default=128)
     parser.add_argument("--learning_rate", type=float, default=3e-3)
     parser.add_argument("--prior_weight", type=float, default=2.0)
+    parser.add_argument(
+        "--prior_weights",
+        nargs="+",
+        type=float,
+        default=[0.001, 0.01, 0.1, 0.3, 1.0, 2.0],
+        help="Weights scanned for global and part priors; none always uses weight 0.",
+    )
     parser.add_argument("--hidden_dim", type=int, default=128)
     return parser.parse_args()
 
@@ -93,6 +101,17 @@ def make_dataset(object_type: str, size: int, seed: int) -> tuple[torch.Tensor, 
     actions = torch.from_numpy(np.stack([sample.action for sample in samples]))
     next_states = torch.from_numpy(np.stack([sample.next_state for sample in samples]))
     return states, actions, next_states
+
+
+def save_dataset(data: tuple[torch.Tensor, torch.Tensor, torch.Tensor], path: Path) -> None:
+    states, actions, next_states = data
+    path.parent.mkdir(parents=True, exist_ok=True)
+    np.savez_compressed(
+        path,
+        states=states.numpy(),
+        actions=actions.numpy(),
+        next_states=next_states.numpy(),
+    )
 
 
 class DynamicsNet(nn.Module):
@@ -153,11 +172,15 @@ def train_model(
         permutation = torch.randperm(len(states))
         for indices in permutation.split(batch_size):
             prediction = model(states[indices], actions[indices])
-            prediction_loss = torch.mean((prediction - targets[indices]) ** 2)
+            prediction_loss = torch.sum((prediction - targets[indices]) ** 2) / (
+                prediction.shape[0] * prediction.shape[1]
+            )
             if pairs:
                 predicted_distances = pair_distances(prediction, pairs)
                 current_distances = pair_distances(states[indices], pairs)
-                prior_loss = torch.mean((predicted_distances - current_distances) ** 2)
+                prior_loss = torch.sum((predicted_distances - current_distances) ** 2) / (
+                    predicted_distances.shape[0] * predicted_distances.shape[1]
+                )
             else:
                 prior_loss = torch.zeros(())
             loss = prediction_loss + prior_weight * prior_loss
@@ -191,18 +214,6 @@ def save_results(results: list[Result], output_dir: Path) -> None:
 
 
 def plot_results(results: list[Result], output_dir: Path) -> None:
-    grouped: dict[tuple[str, str, int], list[Result]] = {}
-    for result in results:
-        grouped.setdefault((result.object_type, result.prior, result.train_size), []).append(result)
-
-    def curve(object_type: str, prior: str, metric: str) -> tuple[list[int], list[float]]:
-        values = []
-        for (current_type, current_prior, train_size), entries in grouped.items():
-            if current_type == object_type and current_prior == prior:
-                values.append((train_size, float(np.mean([getattr(entry, metric) for entry in entries]))))
-        values.sort()
-        return [value[0] for value in values], [value[1] for value in values]
-
     for metric, ylabel, filename in [
         ("prediction_error", "Mean keypoint error", "prediction_error.png"),
         ("structural_violation", "Mean distance violation", "structural_violation.png"),
@@ -210,8 +221,18 @@ def plot_results(results: list[Result], output_dir: Path) -> None:
         figure, axes = plt.subplots(1, 2, figsize=(11, 4.5), sharey=True)
         for axis, object_type in zip(axes, ["rigid", "articulated"]):
             for prior in ["none", "global", "part"]:
-                train_sizes, values = curve(object_type, prior, metric)
-                axis.plot(train_sizes, values, marker="o", label=prior)
+                weights = sorted({result.prior_weight for result in results if result.prior == prior})
+                for weight in weights:
+                    filtered = [
+                        result for result in results
+                        if result.object_type == object_type and result.prior == prior and result.prior_weight == weight
+                    ]
+                    values = []
+                    for train_size in sorted({result.train_size for result in filtered}):
+                        entries = [result for result in filtered if result.train_size == train_size]
+                        values.append((train_size, float(np.mean([getattr(entry, metric) for entry in entries]))))
+                    label = prior if prior == "none" else f"{prior}, lambda={weight:g}"
+                    axis.plot([item[0] for item in values], [item[1] for item in values], marker="o", label=label)
             axis.set_title(object_type.capitalize())
             axis.set_xscale("log")
             axis.set_xlabel("Training transitions")
@@ -227,22 +248,29 @@ def main() -> None:
     args = parse_args()
     if min(args.train_sizes) <= 0 or min(args.seeds) < 0:
         raise ValueError("train sizes must be positive and seeds must be non-negative")
+    if any(weight < 0.0 for weight in args.prior_weights):
+        raise ValueError("prior weights must be non-negative")
     results: list[Result] = []
+    data_dir = args.output_dir / "data"
     for object_type in ["rigid", "articulated"]:
         test_data = make_dataset(object_type, args.test_size, seed=100000 + (0 if object_type == "rigid" else 1))
+        save_dataset(test_data, data_dir / f"test_{object_type}.npz")
         for train_size in args.train_sizes:
             for seed in args.seeds:
                 train_data = make_dataset(object_type, train_size, seed=seed + (1000 if object_type == "articulated" else 0))
+                save_dataset(train_data, data_dir / f"train_{object_type}_n{train_size}_seed{seed}.npz")
                 for prior in ["none", "global", "part"]:
-                    set_seed(seed)
-                    model = train_model(
-                        object_type, prior, train_data, args.epochs, args.batch_size,
-                        args.learning_rate, args.prior_weight, args.hidden_dim,
-                    )
-                    error, violation = evaluate(model, object_type, prior, test_data)
-                    result = Result(object_type, prior, train_size, seed, error, violation)
-                    results.append(result)
-                    print(asdict(result))
+                    weights = [0.0] if prior == "none" else args.prior_weights
+                    for prior_weight in weights:
+                        set_seed(seed)
+                        model = train_model(
+                            object_type, prior, train_data, args.epochs, args.batch_size,
+                            args.learning_rate, prior_weight, args.hidden_dim,
+                        )
+                        error, violation = evaluate(model, object_type, prior, test_data)
+                        result = Result(object_type, prior, train_size, seed, prior_weight, error, violation)
+                        results.append(result)
+                        print(asdict(result))
     save_results(results, args.output_dir)
     plot_results(results, args.output_dir)
     print(f"Saved {len(results)} runs to {args.output_dir.resolve()}")
